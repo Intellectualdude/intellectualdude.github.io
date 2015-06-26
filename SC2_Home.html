@@ -157,16 +157,14 @@
     <h1 style="line-height:70px;">Send in your suggestions!</h1></div></div><br>
     <form class="well form-horizontal" action="http://formspree.io/jeremyphilemon@gmail.com" method="post"  id="contact_form" style="background-color: transparent;">
       <fieldset>
-      <!-- Text input-->
       <div class="vertical-center" style="min-height: 1vh;">
       <div class="col-lg-4">
-
+        
+      <!-- Name -->
       <div class="form-group" style="background-color: transparent;">
-        <div class="col-lg-12 inputGroupContainer">
-        <!--<div class="input-group">-->
-        <input  name="name" placeholder="First Name" class="form-control"  type="text" oninvalid="this.setCustomValidity('Please enter yout name')" required>
+          <div class="col-lg-12 inputGroupContainer">
+           <input  name="Name" placeholder="Your Name?" class="form-control"  type="text" oninvalid="this.setCustomValidity('C'mon, you have a name don't you?)" required>
           </div>
-        <!--</div>-->
       </div>
 
       <!-- Text input
@@ -178,31 +176,26 @@
         </div>
       </div>-->
 
-      <!-- Text input-->
+      <!-- Email -->
           <div class="form-group">
           <div class="col-lg-12 inputGroupContainer">
-            <!--<div class="input-group">-->
-        <input name="email" placeholder="E-Mail Address" class="form-control"  type="email" oninvalid="this.setCustomValidity('Please enter a valid Email')" required>
-        <!--</div>-->
-        </div>
+           <input name="Email" placeholder="E-Mail Address" class="form-control"  type="email" oninvalid="this.setCustomValidity('Please enter a valid Email')" required>
+          </div>
       </div>
 
 
-      <!-- Text input-->
+      <!-- Grade & Section -->
 
       <div class="form-group">
           <div class="col-lg-12 inputGroupContainer">
-            <!--<div class="input-group">-->
-        <input name="grade" placeholder="Grade and Section" class="form-control" type="text" oninvalid="this.setCustomValidity('Please enter your grade and section')" required>
-        <!--</div>-->
-        </div>
+           <input name="Grade" placeholder="Grade and Section" class="form-control" type="text" oninvalid="this.setCustomValidity('You should be specific!')" required>
+          </div>
       </div>
 
-      <!-- Text input-->
+      <!-- Department Dropdown -->
 
       <div class="form-group">
           <div class="col-lg-12 selectContainer">
-          <!--<div class="input-group">-->
           <select name="department" class="form-control selectpicker" required>
             <option value=" ">Please select the department</option>
             <option>Discipline</option>
@@ -214,17 +207,16 @@
             <option>House - Lincoln</option>
             <option>Other</option>
           </select>
-          <!--</div>-->
       </div>
       </div>
 
 
-      <!-- Select Basic -->
+      <!-- Suggestions -->
 
       <div class="form-group">
           <div class="col-lg-12 inputGroupContainer">
             <!--<div class="input-group">-->
-              	<textarea class="form-control" name="comment" placeholder="This is where you type in the suggestions."></textarea>
+              	<textarea class="form-control" name="Thoughts" placeholder="This is where you type in the suggestions." oninvalid="this.setCustomValidity('Don't forget the reason to why you came here!)" required></textarea>
                 <!--</div>-->
         </div>
       </div>
