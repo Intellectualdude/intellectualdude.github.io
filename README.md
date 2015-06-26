@@ -1,1 +1,0 @@
-# intellectualdude.github.io
